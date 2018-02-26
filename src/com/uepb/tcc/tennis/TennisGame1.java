@@ -1,6 +1,6 @@
 package com.uepb.tcc.tennis;
 
-public class TennisGame1 {
+public class TennisGame1 implements TennisGame {
 	
 	private int m_pontuacao1 = 0;
     private int m_pontuacao2 = 0;
@@ -30,7 +30,7 @@ public class TennisGame1 {
                         pontuacao = "Love-All";
                     break;
                 case 1:
-                        pontuacao = "Quinze-Aa";
+                        pontuacao = "Quinze-All";
                     break;
                 case 2:
                         pontuacao = "Trinta-All";
